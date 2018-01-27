@@ -26,6 +26,7 @@ yarn.lock
 
 # Brunch output folder.
 public/
+dist/
 coverage/
 flymd.*
 .idea/
