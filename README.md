@@ -1,4 +1,3 @@
-## casec_front
 ***Optimal, developer-focused and stable React-App template***
 
 ## **Dependencies**
