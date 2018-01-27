@@ -1,12 +1,12 @@
 import { Actions } from 'jumpstate'
 import { connect } from 'react-redux'
+import { compose } from 'redux'
 import { Field, reduxForm } from 'redux-form'
 import { withRouter } from 'react-router-dom'
 import { translate } from 'react-i18next'
-import compose from 'lodash/fp/compose'
 import Container from '../base/Container'
 import Button from '../base/Button'
-import Input from '../utils/FormInputs'
+import { Input } from '../utils/FormInputs'
 
 class HomeDemo extends React.PureComponent {
   state = {
