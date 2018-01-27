@@ -59,8 +59,8 @@ export default class Countdown extends React.PureComponent {
   render() {
     return (
       <div className={style.timer}>
-        <img className={style.icon} alt="icon" src="https://avatars2.githubusercontent.com/u/25725526?s=40&v=4" />
-        <h4 className={style.text}>Countdown Clock</h4>
+        <img className={style.icon} alt="icon" src="http://thumbs2.modthesims.info/img/4/3/2/4/7/1/MTS_Beo-929924-matrix.jpg" width="48" height="48" />
+        <div className={style.text}>Timer</div>
         <div id="clock" className={style.clock}>
           {this.renderTimeFormat(this.state.time)}
         </div>

@@ -43,7 +43,7 @@ https://reactjs.org/docs/web-components.html
 ##### High-Order-Component / High-Order-Function (HOC) and Decorator
 https://reactjs.org/docs/higher-order-components.html
 
-Production-standard React App makes heavy use of High-Order-Component and Decorators, like React-Redux, Redux-Form, React-i18next etc. So understand what are they and how to use them is very important.
+Production-standard React App makes heavy use of High-Order-Component and Decorators, like React-Redux, Redux-Form, React-i18next etc. So understand what they are and how to use them is very important.
 
 <br>
 
@@ -65,9 +65,11 @@ export default withRouter(
 )
 ```
 
-In that situation, use **lodash/fp/compose** for chaining functions:
+In that situation, use **compose** of Redux for chaining functions:
 *Beautifulness example*:
 ```javascript
+import { compose } from 'redux'
+
 export default compose(
   reduxForm({
     form: 'authentication',

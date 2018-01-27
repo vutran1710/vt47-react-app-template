@@ -36,7 +36,7 @@ $ npm install
 ```
 After that you can start hacking with the code
 
-3. Get the app running by running the command in the terminal
+3. Get the app running with the following command in the terminal
 ```bash
 $ npm start
 ```
@@ -48,8 +48,3 @@ $ npm start
 ## **Where to go from here?**
 ---
 For detail explanations and tutorials, check out the **documents** folder in the repo.
-
-
-## **TODO**
-1. Populate tree-shaking temporary resolution
-2. Document api endpoints
