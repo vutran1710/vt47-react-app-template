@@ -1,11 +1,18 @@
 .heading {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border: solid 1px #ddd;
-  width: 100px;
-  height: 100px;
+  padding: 15px;
+
   img {
-    height: 70%;
+    height: 70px;
+  }
+
+  div {
+    font-size: 45px;
+    font-weight: bold;
+    color: darkred;
+    text-transform: uppercase;
   }
 }

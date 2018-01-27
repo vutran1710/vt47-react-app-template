@@ -1,4 +1,4 @@
-### Default Button
+##### Default Button
 
 ```js
 <Button/>
@@ -34,7 +34,7 @@
 <Button color="green" onClick={() => alert('You just clicked')}/>
 ```
 
-##### Add a outline...
+##### Add an outline...
 
 ```js
 <Button outline="green" />

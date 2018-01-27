@@ -1,4 +1,3 @@
-### Countdown
 
 ```js
 const startTimer = () => this.timer.startTimer();

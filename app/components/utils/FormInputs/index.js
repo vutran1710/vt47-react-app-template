@@ -1,12 +1,4 @@
 import TextArea from './Textarea'
+import Input from './Input'
 
-const Input = ({ meta: { touched, error }, input, ...rest }) => (
-  <input
-    {...input}
-    {...rest}
-    className="input-text"
-  />
-)
-
-// eslint-disable-next-line
 export { Input, TextArea }

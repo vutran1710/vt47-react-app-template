@@ -13,7 +13,9 @@ module.exports = {
     mock: path.join(__dirname, '../__mock__/mock.js')
   },
   styleguideDir: '../styleguide',
+  ignore: ['**/components/utils/FormInputs/index.js'],
   require: [
+    path.join(__dirname, './styleguide.css'),
     path.join(__dirname, '../app/styles/app.scss')
   ],
   webpackConfig: createConfig([
@@ -30,6 +32,9 @@ module.exports = {
     ]),
     match('*.scss', { include: path.resolve(__dirname, '../app/styles') }, [
       sass()
+    ]),
+    match('*.css', { include: path.resolve(__dirname, '.') }, [
+      css()
     ])
   ])
 }

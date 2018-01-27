@@ -1,6 +1,5 @@
-Note styleguide:
+An alert note, very siiiiiiiiiiiirius!
 
-##### Default
 ```js
 <Note content="this is content" color="red" />
 ```
