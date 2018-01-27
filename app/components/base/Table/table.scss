@@ -1,0 +1,31 @@
+.tbl {
+  border: solid 1px transparent;
+  border-collapse: collapse;
+
+  td, th {
+    border: 1.5px solid #fff;
+    padding: 8px 40px;
+  }
+
+  tr {
+    background-color: #eaeff6;
+  }
+
+  tr:nth-child(even){
+    background-color: #d3ddee;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6999d0;
+    color: white;
+    border-bottom: solid 4px #fff;
+  }
+}
+
+.primary {
+  background-color: #6999d0;
+  color: white;
+}

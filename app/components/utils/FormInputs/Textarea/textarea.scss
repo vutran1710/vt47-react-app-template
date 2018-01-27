@@ -1,0 +1,17 @@
+@import 'app/styles/vars';
+
+.textarea {
+  padding: 8px 12px;
+  border: 1px solid $primary;
+  border-bottom: transparent;
+  display: block;
+  width: 100%;
+  resize: none;
+}
+
+.status {
+  padding: 8px 12px;
+  background: $grey-medium;
+  color: $white;
+  text-align: right;
+}

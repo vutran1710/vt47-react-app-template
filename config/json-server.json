@@ -1,0 +1,6 @@
+{
+  "port": 3000,
+  "watch": true,
+  "delay": 3000,
+  "snapshots": "__mock__/"
+}

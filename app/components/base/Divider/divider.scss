@@ -1,0 +1,10 @@
+.divider {
+  clear: both;
+  border: 1px solid transparent;
+  height: 0px;
+  margin: 2em 0px;
+
+  &[visible='true'] {
+    border-color: #ddd;
+  }
+}

@@ -1,0 +1,54 @@
+@import "~normalize.css";
+@import "app/styles/vars";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
+}
+
+button, input, textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+input.input-text {
+  padding: 8px 12px;
+  border: solid 1px $grey-dark;
+  color: $grey;
+  min-width: 200px;
+  border-radius: 4px;
+
+  &[error=true] {
+    border-color: $pink;
+  }
+
+  &[warning=true] {
+    border-color: $orange;
+  }
+
+  &[disabled=true] {
+    border-color: $grey;
+    color: $grey;
+  }
+
+  &:focus {
+    border-color: $primary;
+  }
+}

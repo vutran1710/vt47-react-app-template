@@ -1,0 +1,32 @@
+@import 'app/styles/vars';
+
+.panel {
+  border: 1px solid $grey-very-light;
+  .item {
+    border-top: 1px solid $grey-very-light;
+
+    &:first-child {
+      border-top: none;
+    }
+
+    .heading {
+      padding: 8px 12px;
+      transition-duration: 0.4s;
+      &:hover {
+        background: $white-smoke;
+        color: $primary;
+      }
+    }
+
+    &[aria-expanded=true] {
+      .heading {
+        border-bottom: 1px solid $grey-very-light;
+        color: $primary;
+      }
+    }
+
+    .body {
+      padding: 8px 12px;
+    }
+  }
+}

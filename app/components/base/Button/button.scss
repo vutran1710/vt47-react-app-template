@@ -1,0 +1,64 @@
+@import 'app/styles/vars';
+
+.btn {
+  background: $grey;
+  font-size: 16px;
+  border-radius: 4px;
+  border: transparent;
+  padding: 8px 24px;
+  cursor: pointer;
+  min-width: 128px;
+  transition-duration: 0.4s;
+  position: relative;
+  box-shadow: 0px 1px 2px $grey;
+
+  &[color="red"] {
+    color: $red;
+  }
+
+  &[color="green"] {
+    color: $white;
+    background: $btn-green;
+  }
+
+  &[outline="black"] {
+    background: $white;
+    color: $black;
+    border: 1px solid $grey;
+  }
+
+  &[outline="green"] {
+    background: $white;
+    color: $btn-green;
+    border: 1px solid $btn-green;
+  }
+
+  &[text-upper=true] {
+    text-transform: uppercase;
+  }
+
+  &[symbol=true] {
+    &:after {
+      content: '>';
+      font-size: 10px;
+      position: absolute;
+      right: 8px;
+      top: calc(50% - 7px)
+    }
+  }
+
+  &:hover {
+    color: $white;
+    background-color: $btn-green-hover;
+  }
+
+  &:active {
+    color: $white;
+    background-color: $btn-green-active;
+  }
+
+  &[disabled] {
+    background-color: $grey;
+    cursor: not-allowed;
+  }
+}

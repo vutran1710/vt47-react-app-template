@@ -1,0 +1,18 @@
+.ctn {
+  width: 100%;
+  max-width: 900px;
+  margin: 10px auto;
+
+  &[fluid='true'] {
+    max-width: 100%;
+  }
+
+  &[align='center'] {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &[align='justify'] {
+    text-align: justify;
+  }
+}
