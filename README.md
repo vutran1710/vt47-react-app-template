@@ -1,7 +1,6 @@
 ***Optimal, developer-focused and stable React-App template***
 
 ## **Dependencies**
----
 - **Brunch**: a build tool focus on simplicity, readability and ease-of-use
 - **React**: Facebook's revolutionary front-end library
 - **History + React-Router-Dom**: for client-side routing
@@ -9,13 +8,12 @@
 - **Normalize.css**: unify browser's styling
 - **React-Styleguidist**: isolated environment for React-Component documentation & design
 - **Jest + Enzyme**: unit & snapshot testing
-- **Lodash**: function utilities that makes writing javascript a joy
+- **Lodash**: function utilities that makes writing javascript a joy // or one may try some alternative such as **Ramda**
 
 ...and more to list.
 
 
 ## **Getting started**
----
 1. Clone the repo and install dependencies
 ```bash
 $ git clone <repo-link> <folder-name>
@@ -39,7 +37,7 @@ After that you can start hacking with the code
 ```bash
 $ npm start
 ```
-4. Open your favourite browser and go to **http://localhost:3333** to enjoy
+4. Open your favourite browser and hit **http://localhost:3333** to enjoy
 
 #### Happy Coding!
 
