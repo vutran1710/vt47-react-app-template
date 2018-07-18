@@ -44,6 +44,10 @@
       }
     ],
     "semi": 0,
+    "no-debugger": 0,
+    "no-console": 0,
+    "camelcase": 0,
+    "consistent-return": 0,
     "comma-dangle": 0,
     "jsx-quotes": 0,
     "object-curly-newline": 0,
